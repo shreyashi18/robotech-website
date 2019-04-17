@@ -56,16 +56,6 @@ footer.page-footer {
   margin: 0;
 }
 
-@font-face {
-  font-family: CircularStdBlack;
-  src: url("C:/Users/Lucky/Desktop/Downloads/robotronics/fonts/CircularStd-Black.ttf");
-}
-
-@font-face {
-  font-family: CircularStdMedium;
-  src: url("C:/Users/Lucky/Desktop/Downloads/robotronics/fonts/CircularStd-Medium.ttf");
-}
-
 @font-face{
   font-family: HelveticaNeueLight;
   src: url("fonts/HelveticaNeueLight.ttf");
