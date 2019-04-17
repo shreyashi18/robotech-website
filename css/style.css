@@ -68,12 +68,12 @@ footer.page-footer {
 
 @font-face{
   font-family: HelveticaNeueLight;
-  src: url("C:/Users/Lucky/Desktop/Downloads/robotronics/fonts/HelveticaNeueLight.ttf");
+  src: url("fonts/HelveticaNeueLight.ttf");
 }
 
 @font-face{
   font-family: HelveticaNeueThin;
-  src: url("C:/Users/Lucky/Desktop/Downloads/robotronics/fonts/HelveticaNeueThin.ttf");
+  src: url("fonts/HelveticaNeueThin.ttf");
 }
 
 .circular {
