@@ -58,12 +58,12 @@ footer.page-footer {
 
 @font-face{
   font-family: HelveticaNeueLight;
-  src: url("fonts/HelveticaNeueLight.ttf");
+  src: url("../fonts/HelveticaNeueLight.ttf");
 }
 
 @font-face{
   font-family: HelveticaNeueThin;
-  src: url("fonts/HelveticaNeueThin.ttf");
+  src: url("../fonts/HelveticaNeueThin.ttf");
 }
 
 .circular {
