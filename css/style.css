@@ -83,3 +83,21 @@ footer.page-footer {
 .helv {
   font-family: "HelveticaNeueLight";
 }
+
+@font-face{
+  font-family: ProductSans;
+  src: url("fonts/productsans.ttf");
+}
+
+.product {
+  font-family: "ProductSans";
+}
+
+@font-face{
+  font-family: ProductSansBold;
+  src: url("fonts/productsans_bold.ttf");
+}
+
+.productbold {
+  font-family: "ProductSansBold";
+}
