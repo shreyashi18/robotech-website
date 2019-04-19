@@ -97,6 +97,7 @@ footer.page-footer {
 
 .product {
   font-family: "ProductSans";
+  font-weight: 100;
 }
 
 @font-face{
