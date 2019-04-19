@@ -3458,6 +3458,12 @@ table span.badge {
   margin-top: 150px;
 }
 
+.container2 {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1280px;
