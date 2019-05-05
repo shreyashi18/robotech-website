@@ -109,6 +109,7 @@ footer.page-footer {
   font-family: "ProductSansBold";
 }
 
-.mainhover:hover {
-  color: #16E16E !important;
+.event {
+  width: 500px;
+  height: 500px;
 }

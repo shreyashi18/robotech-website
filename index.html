@@ -13,18 +13,255 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper black" style="padding-left: 100px; padding-right: 100px;">
-        <a href="#!" class="brand-logo"><img src="assets/logo.png" style="height:63px;"></a>
-        <ul class="right hide-on-med-and-down">
-          <li class="product"><a href="sass.html"><font class="white-text mainhover">About us</font></a></li>
-          <li class="product"><a href="badges.html"><font class="white-text mainhover">Events</font></a></li>
-          <li class="product"><a href="sass.html"><font class="white-text mainhover">The Team</font></a></li>
-          <li class="product"><a href="badges.html"><font class="white-text mainhover">Contact Us</font></a></li>
-        </ul>
+  <nav class="black" role="navigation" style="height:75px;line-height:75px;position:fixed;z-index:10">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">
+      <img src="assets/logo.png" height="65px" style="margin-top:5px;">
+      </a>
+
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#about"><font class="maincolortexthover product" color="white">Register</font></a></li>
+      </ul>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#about"><font class="maincolortexthover product" color="white">Contact</font></a></li>
+      </ul> 
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#about"><font class="maincolortexthover product" color="white">The Team</font></a></li>
+      </ul>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#event"><font class="maincolortexthover product" color="white">Events</font></a></li>
+      </ul>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#about"><font class="maincolortexthover product" color="white">About Us</font></a></li>
+      </ul>
+      
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#about"><font class="helv">About Us</font></a></li>
+        <li><a href="#event"><font class="helv">Events</font></a></li>
+        <li><a href="#about"><font class="helv">The Team</font></a></li>
+        <li><a href="#about"><font class="helv">Contact</font></a></li>
+        <li><a href="#about"><font class="helv">Register</font></a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container" style="width: 100%; height: 100% !important; padding-top: 75px;">
+    <div class="section no-pad-bot" style="width: 100%; height: 100% !important;">
+      <div class="container1" style="width: 100%; height: 100% !important;">
+        <br><br>
+        <div class=container>
+        <h1 class="header center text-lighten-2 productbold"><font color="#16E16E" style="font-size: 100px;letter-spacing: -7px;">ROBOTRONICS</font></h1>
+        <div class="row center">
+          <h5 class="header col s12 light product" style="font-size: 42px;margin-top:-20px;">July 20, 2019</h5>
+        </div>
+        <div class="row center">
+          <a href="http://docs.google.com" style="margin-top:50px;color: black;" class="btn-large waves-effect waves-light maincolor lighten-1 productbold">REGISTER NOW</a>
+        </div>
       </div>
-    </nav>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="bg2.png" alt="Background"></div>
   </div>
-</body>
+
+
+  
+
+
+  <div class="parallax-container valign-wrapper" style="padding: 100px;" id="about">
+    <div class="section no-pad-bot">
+      <div class="container2" style="margin-left: 0 !important;">
+        <div class="row" style="width: 1280px !important;">
+          <img src="assets/robot.jpg" style="height: 280px; float: right; margin-right: 00px; margin-top: auto; margin-bottom: auto;">
+          <h5 class="productbold" style="color: black;font-size: 48px;">About us.</h5>
+          <h6 class= "product black-text" style="width: 50%; margin-top: 20px;font-size: 20px;font-family:'Karla', sans-serif;letter-spacing: -1px;"> 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam accumsan mi cursus rhoncus. Etiam sed mattis erat. Fusce luctus ullamcorper tellus, in lobortis neque sollicitudin at. Sed iaculis turpis urna, sit amet auctor sapien congue convallis. <br><br>
+            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc ante metus, vehicula a ornare id, porta sed diam. Aliquam sed aliquet ex. Quisque efficitur lacus eget magna rhoncus dictum. Morbi tempor ut justo ut pharetra. 
+          </h6>
+        </div>
+      </div>
+    </div>
+    <!--<div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>-->
+  </div>
+
+  <div class="white" id="event">
+    <center>
+    <div class="container white" style="width: 100%; padding-bottom:100px; padding-right:100px; padding-left:100px; margin-top: -50px;">
+      <h4 class="black-text productbold" style="font-size: 48px; text-align: left;"> Events. </h4>
+
+      <!--   Icon Section   -->
+      <div class="all icons">
+      <div class="center row">
+        <div class="col s12 m4">
+          <div class="icon-block black" style="border-radius: 10px; padding-top: 5px; padding-bottom: 5px;">
+            <h2 class="center maincolortext" style="float: left; margin-left: 20px; padding-right: 20px; padding-bottom: 0px; margin-bottom: 0px;"><i class="material-icons">android</i></h2>
+            <h5 class="left-align maincolortext productbold" style="letter-spacing: -1px; margin-top: 20px;">ROBOTRIX</h5>
+            <h6 class="left-align white-text product" style="margin-top: -10px;">Robotics</h6>
+
+            <p class="light white-text product" style="text-align: justify; padding-top: 20px;">Junior and Senior Event Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam accumsan mi cursus rhoncus. Etiam sed mattis erat. Fusce luctus ullamcorper tellus, in lobortis neque sollicitudin at. Sed iaculis turpis urna, sit amet auctor sapien congue convallis. </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block black" style="border-radius: 10px; padding-top: 5px; padding-bottom: 5px;">
+            <h2 class="center maincolortext" style="float: left; margin-left: 20px; padding-right: 20px; padding-bottom: 0px; margin-bottom: 0px;"><i class="material-icons">camera_roll</i></h2>
+            <h5 class="left-align maincolortext productbold" style="letter-spacing: -1px; margin-top: 20px;">prod.io</h5>
+            <h6 class="left-align white-text product" style="margin-top: -10px;">Audio/Visual Editing</h6>
+
+            <p class="light white-text product" style="text-align: justify; padding-top: 20px;">Junior and Senior Event Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam accumsan mi cursus rhoncus. Etiam sed mattis erat. Fusce luctus ullamcorper tellus, in lobortis neque sollicitudin at. Sed iaculis turpis urna, sit amet auctor sapien congue convallis. </p>
+          </div>
+        </div>
+
+              <div class="col s12 m4">
+          <div class="icon-block black" style="border-radius: 10px; padding-top: 5px; padding-bottom: 5px;">
+            <h2 class="center maincolortext" style="float: left; margin-left: 20px; padding-right: 20px; padding-bottom: 0px; margin-bottom: 0px;"><i class="material-icons">web</i></h2>
+            <h5 class="left-align maincolortext productbold" style="letter-spacing: -1px; margin-top: 20px;">Weev</h5>
+            <h6 class="left-align white-text product" style="margin-top: -10px;">Web Development</h6>
+
+            <p class="light white-text product" style="text-align: justify; padding-top: 20px;">Junior and Senior Event Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam accumsan mi cursus rhoncus. Etiam sed mattis erat. Fusce luctus ullamcorper tellus, in lobortis neque sollicitudin at. Sed iaculis turpis urna, sit amet auctor sapien congue convallis. </p>
+          </div>
+        </div>
+      </div>
+
+            <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block black" style="border-radius: 10px; padding-top: 5px; padding-bottom: 5px;">
+            <h2 class="center maincolortext" style="float: left; margin-left: 20px; padding-right: 20px; padding-bottom: 0px; margin-bottom: 0px;"><i class="material-icons">no_encryption</i></h2>
+            <h5 class="left-align maincolortext productbold" style="letter-spacing: -1px; margin-top: 20px;">Encryptid</h5>
+            <h6 class="left-align white-text product" style="margin-top: -10px;">Cryptic Hunt</h6>
+
+            <p class="light white-text product" style="text-align: justify; padding-top: 20px;">Junior and Senior Event Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam accumsan mi cursus rhoncus. Etiam sed mattis erat. Fusce luctus ullamcorper tellus, in lobortis neque sollicitudin at. Sed iaculis turpis urna, sit amet auctor sapien congue convallis. </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block black" style="border-radius: 10px; padding-top: 5px; padding-bottom: 5px;">
+            <h2 class="center maincolortext" style="float: left; margin-left: 20px; padding-right: 20px; padding-bottom: 0px; margin-bottom: 0px;"><i class="material-icons">videogame_asset</i></h2>
+            <h5 class="left-align maincolortext productbold" style="letter-spacing: -1px; margin-top: 20px;">Wasted</h5>
+            <h6 class="left-align white-text product" style="margin-top: -10px;">Gaming</h6>
+
+            <p class="light white-text product" style="text-align: justify; padding-top: 20px;">Junior and Senior Event Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam accumsan mi cursus rhoncus. Etiam sed mattis erat. Fusce luctus ullamcorper tellus, in lobortis neque sollicitudin at. Sed iaculis turpis urna, sit amet auctor sapien congue convallis. </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block black" style="border-radius: 10px; padding-top: 5px; padding-bottom: 5px;">
+            <h2 class="center maincolortext" style="float: left; margin-left: 20px; padding-right: 20px; padding-bottom: 0px; margin-bottom: 0px;"><i class="material-icons">format_quote</i></h2>
+            <h5 class="left-align maincolortext productbold" style="letter-spacing: -1px; margin-top: 20px;">Expresso</h5>
+            <h6 class="left-align white-text product" style="margin-top: -10px;">Group Discussion</h6>
+
+            <p class="light white-text product" style="text-align: justify; padding-top: 20px;">Junior and Senior Event Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam accumsan mi cursus rhoncus. Etiam sed mattis erat. Fusce luctus ullamcorper tellus, in lobortis neque sollicitudin at. Sed iaculis turpis urna, sit amet auctor sapien congue convallis. </p>
+          </div>
+        </div>
+      </div>
+
+            <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block black" style="border-radius: 10px; padding-top: 5px; padding-bottom: 5px;">
+            <h2 class="center maincolortext" style="float: left; margin-left: 20px; padding-right: 20px; padding-bottom: 0px; margin-bottom: 0px;"><i class="material-icons">add</i></h2>
+            <h5 class="left-align maincolortext productbold" style="letter-spacing: -1px; margin-top: 20px;">_____</h5>
+            <h6 class="left-align white-text product" style="margin-top: -10px;">Surprise</h6>
+
+            <p class="light white-text product" style="text-align: justify; padding-top: 20px;">Junior and Senior Event Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam accumsan mi cursus rhoncus. Etiam sed mattis erat. Fusce luctus ullamcorper tellus, in lobortis neque sollicitudin at. Sed iaculis turpis urna, sit amet auctor sapien congue convallis. </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block black" style="border-radius: 10px; padding-top: 5px; padding-bottom: 5px;">
+            <h2 class="center maincolortext" style="float: left; margin-left: 20px; padding-right: 20px; padding-bottom: 0px; margin-bottom: 0px;"><i class="material-icons">flash_on</i></h2>
+            <h5 class="left-align maincolortext productbold" style="letter-spacing: -1px; margin-top: 20px;">Ideathon</h5>
+            <h6 class="left-align white-text product" style="margin-top: -10px;">Idea Pitching</h6>
+
+            <p class="light white-text product" style="text-align: justify; padding-top: 20px;">Junior and Senior Event Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam accumsan mi cursus rhoncus. Etiam sed mattis erat. Fusce luctus ullamcorper tellus, in lobortis neque sollicitudin at. Sed iaculis turpis urna, sit amet auctor sapien congue convallis. </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block black" style="border-radius: 10px; padding-top: 5px; padding-bottom: 5px;">
+            <h2 class="center maincolortext" style="float: left; margin-left: 20px; padding-right: 20px; padding-bottom: 0px; margin-bottom: 0px;"><i class="material-icons">play_arrow</i></h2>
+            <h5 class="left-align maincolortext productbold" style="letter-spacing: -1px; margin-top: 20px;">Swayger</h5>
+            <h6 class="left-align white-text product" style="margin-top: -10px;">Sway Making</h6>
+
+            <p class="light white-text product" style="text-align: justify; padding-top: 20px;">Junior and Senior Event Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam accumsan mi cursus rhoncus. Etiam sed mattis erat. Fusce luctus ullamcorper tellus, in lobortis neque sollicitudin at. Sed iaculis turpis urna, sit amet auctor sapien congue convallis. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    </center>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Venue</h5>
+          <p class="white-text text-lighten-4">Amity International School, Sector - 46, Gurgaon</p>
+          <h5 class="white-text">Timings</h5>
+          <p class="white-text text-lighten-4">8AM to 3AM</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Contact Us</h5>
+          <ul>
+            <li><a class="white-text maincolortexthover" href="mailto:cyberamity46@gmail.com">cyberamity46@gmail.com</a></li>
+            <li class="white-text">+91 98688 51136</li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Social</h5>
+          <ul>
+            <li><a class="white-text maincolortexthover" href="https://facebook.com/syndicateofamity46">Facebook</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright black">
+      <div class="container">
+      <div class="center">Made with ❤ by <a target="_blank" class="white-text text-lighten-3 maincolortexthover" href="http://laxyapahuja.github.io">Laxya Pahuja</a> and <a target="_blank" class="white-text text-lighten-3 maincolortexthover" href="http://padamchopra.me/">Padam Chopra</a></div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
