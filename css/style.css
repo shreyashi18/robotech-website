@@ -113,3 +113,22 @@ footer.page-footer {
   width: 500px;
   height: 500px;
 }
+
+.imagecropper {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  display:inline-block;
+}
+
+.team-member {
+  width: 300px;
+  display: inline-block;
+  padding-right: 370px;
+}
+
+.row1 {
+  margin: 0 auto;
+  float:center;
+}
