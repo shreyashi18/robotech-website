@@ -115,20 +115,19 @@ footer.page-footer {
 }
 
 .imagecropper {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   overflow: hidden;
   border-radius: 50%;
   display:inline-block;
 }
 
 .team-member {
-  width: 300px;
+  width: 250px;
   display: inline-block;
   padding-right: 370px;
 }
 
 .row1 {
-  margin: 0 auto;
   float:center;
 }
