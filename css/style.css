@@ -131,3 +131,22 @@ footer.page-footer {
 .row1 {
   float:center;
 }
+
+.about {
+  padding: 10%;
+}
+
+.events {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.team {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+}
+
+.team1 {
+  margin-left:90px;
+}

@@ -3781,6 +3781,9 @@ table span.badge {
     left: auto;
     right: auto;
   }
+  .row .col.m4a {
+    width: 33.3333333333%;
+  }
   .row .col.m5 {
     width: 41.6666666667%;
     margin-left: auto;
